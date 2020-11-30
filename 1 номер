@@ -1,3 +1,5 @@
+/*Adding odd digits of N*/
+
 count(N,Sum):- 
     N mod 2 =:= 1,  %Проверяем на нечетность, =:= - арифметическое сравнение
     Num is N div 2 + 1, 
