@@ -18,5 +18,5 @@ lcm(X,Y,GCD):-
 ?- lcm(2,6,Z)
 	6
 ?- lcm(3,2,5)
-   false
+	false
 */
