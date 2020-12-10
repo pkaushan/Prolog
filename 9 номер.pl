@@ -6,7 +6,7 @@ deleteDups([Head | Tail], NewTail) :- %Если head содержится в tai
     deleteDups(Tail, NewTail). %не добавляем Head
 deleteDups([Head | Tail], [Head | NewTail]) :- 
     not(member(Head, Tail)), 
-    deleteDups(Tail, NewTail), !.  %добавляем Head
+    deleteDups(Tail, NewTail).  %добавляем Head
 
 
 
